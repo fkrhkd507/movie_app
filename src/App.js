@@ -11,6 +11,9 @@ function Food({ name, picture, rating}) {
   );
 }
 
+
+// function component에서는 react는 class component의 render함수를 실행한다.
+// 변하는 데이터 state등을 사용하기 위해 class component 사용
 class App extends React.Component {
   state = {
     count: 0
